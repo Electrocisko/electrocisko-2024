@@ -1,4 +1,6 @@
+@use "../abstract/variables";
+
 html, body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:var(--font-base)
 }
 

@@ -4,6 +4,36 @@
 
 
 
-body {
-    background-color: var( --color-soft-red);
+h1 {
+    text-align: center;
+    margin-top: 50px;
 }
+
+.navbar{
+    display: flex;
+    background-color: var(--color-cream);
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 100px;
+        width: 100%;
+
+        a {
+            color: black;
+        }
+    }
+
+    .logo-container{
+      padding-left: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+}
+
+
+
+
+
