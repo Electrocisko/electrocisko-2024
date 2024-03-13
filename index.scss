@@ -9,9 +9,11 @@ h1 {
     margin-top: 50px;
 }
 
-.navbar{
+.navbar {
     display: flex;
+    flex-direction: row;
     background-color: var(--color-cream);
+    align-items: center;
 
     ul {
         display: flex;
@@ -21,19 +23,68 @@ h1 {
         width: 100%;
 
         a {
-            color: black;
+            color: blue;
+        }
+
+        .active{
+            border-bottom: solid blue 3px;
         }
     }
 
-    .logo-container{
-      padding-left: 10px;
-      padding-top: 5px;
-      padding-bottom: 5px;
+    .logo {
+      margin-left: 10px;
     }
 
+    .menu{
+     display: none;
+    }
 }
 
+//Mobil design
+@media (max-width: 650px) {
+
+    .navbar {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+
+        .hide {
+            display: none;
+        }
+      
+    
+        ul {
+          display: flex;
+          flex-direction: column;
+          position: static;
+          top: 40px;
+          background-color: var(--color-cream);
+
+          li {
+            margin-bottom: 10px;
+          }
+            
+
+            a {
+                color: blue;
+            }
+    
+            .active{
+                border-bottom: solid blue 3px;
+            }
+        }
+    
+        .logo {
+        
+        }
+    
+        .menu{
+          display: block;
+        }
+    }
 
 
-
-
+  
+}

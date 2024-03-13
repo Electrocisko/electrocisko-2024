@@ -42,7 +42,9 @@ h1 {
 
 .navbar {
   display: flex;
+  flex-direction: row;
   background-color: var(--color-cream);
+  align-items: center;
 }
 .navbar ul {
   display: flex;
@@ -53,10 +55,45 @@ h1 {
   width: 100%;
 }
 .navbar ul a {
-  color: black;
+  color: blue;
 }
-.navbar .logo-container {
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.navbar ul .active {
+  border-bottom: solid blue 3px;
+}
+.navbar .logo {
+  margin-left: 10px;
+}
+.navbar .menu {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+  .navbar .hide {
+    display: none;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    top: 40px;
+    background-color: var(--color-cream);
+  }
+  .navbar ul li {
+    margin-bottom: 10px;
+  }
+  .navbar ul a {
+    color: blue;
+  }
+  .navbar ul .active {
+    border-bottom: solid blue 3px;
+  }
+  .navbar .menu {
+    display: block;
+  }
 }/*# sourceMappingURL=index.css.map */
