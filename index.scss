@@ -1,0 +1,9 @@
+@use "scss/base/resets";
+@use "scss/base/base";
+@use "scss/abstract/variables";
+
+
+
+body {
+    background-color: var( --color-soft-red);
+}
