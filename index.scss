@@ -26,17 +26,17 @@ h1 {
             color: blue;
         }
 
-        .active{
+        .active {
             border-bottom: solid blue 3px;
         }
     }
 
     .logo {
-      margin-left: 10px;
+        margin-left: 10px;
     }
 
-    .menu{
-     display: none;
+    .menu {
+        display: none;
     }
 }
 
@@ -53,38 +53,34 @@ h1 {
         .hide {
             display: none;
         }
-      
-    
-        ul {
-          display: flex;
-          flex-direction: column;
-          position: static;
-          top: 40px;
-          background-color: var(--color-cream);
 
-          li {
-            margin-bottom: 10px;
-          }
-            
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            position: static;
+            top: 40px;
+            background-color: var(--color-cream);
+
+            li {
+                margin-bottom: 10px;
+            }
+
 
             a {
                 color: blue;
             }
-    
-            .active{
+
+            .active {
                 border-bottom: solid blue 3px;
             }
         }
-    
-        .logo {
-        
-        }
-    
-        .menu{
-          display: block;
+
+        .menu {
+            display: block;
         }
     }
 
 
-  
+
 }
