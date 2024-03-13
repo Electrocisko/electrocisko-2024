@@ -26,7 +26,7 @@ button {
   --color-cyan-soft:hsl(187, 49%, 80%);
   --color-dark-brown: hsl(25, 47%, 15%);
   --color-medium-brown: hsl(28, 10%, 53%);
-  --color-cream: hsl(27, 66%, 92%);
+  --color-cream: hsl(0, 4%, 95%);
   --color-very-pale-orange: hsl(10, 100%, 76%);
   --color-background: rgba(247,233,220,255);
 }
@@ -55,10 +55,11 @@ h1 {
   width: 100%;
 }
 .navbar ul a {
-  color: blue;
+  color: black;
 }
 .navbar ul .active {
   border-bottom: solid blue 3px;
+  color: blue;
 }
 .navbar .logo {
   margin-left: 10px;
@@ -86,12 +87,6 @@ h1 {
   }
   .navbar ul li {
     margin-bottom: 10px;
-  }
-  .navbar ul a {
-    color: blue;
-  }
-  .navbar ul .active {
-    border-bottom: solid blue 3px;
   }
   .navbar .menu {
     display: block;

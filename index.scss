@@ -23,11 +23,12 @@ h1 {
         width: 100%;
 
         a {
-            color: blue;
+            color: black;
         }
 
         .active {
             border-bottom: solid blue 3px;
+            color: blue;
         }
     }
 
@@ -67,14 +68,9 @@ h1 {
             }
 
 
-            a {
-                color: blue;
-            }
-
-            .active {
-                border-bottom: solid blue 3px;
-            }
+        
         }
+
 
         .menu {
             display: block;

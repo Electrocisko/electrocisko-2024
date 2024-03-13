@@ -1,12 +1,16 @@
 const hamburguer = document.getElementById("hamburguer");
 const linksContainer = document.getElementById("links-container");
 const links = document.getElementsByClassName("links");
+let displaySize = window.screen.width
+
+if (displaySize < 651) {
+    linksContainer.classList.add("hide")
+}
+
 
 hamburguer.addEventListener("click", () => {
   linksContainer.classList.toggle("hide");
 });
-
-
 
 for (let i = 0; i < links.length; i++) {
   const thisLink = links[i];
