@@ -170,11 +170,23 @@ h3 {
 .contacto-container {
   padding-top: 60px;
   margin: 30px 0px 20px 0px;
+  margin-left: 2rem;
+  text-align: center;
 }
 .contacto-container .links-contacto {
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   gap: 50px;
+}
+.contacto-container p {
+  line-height: 150%;
+}
+.contacto-container a {
+  font-weight: 500;
+}
+.contacto-container span {
+  font-weight: 600;
 }
 
 @media (max-width: 650px) {

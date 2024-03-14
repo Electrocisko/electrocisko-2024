@@ -154,12 +154,27 @@ h3 {
 .contacto-container{
     padding-top: 60px;
     margin: 30px 0px 20px 0px;
+    margin-left: 2rem;
+    text-align: center;
 
 
     .links-contacto {
+        margin-top: 15px;
         display: flex;
         justify-content: center;
         gap: 50px;
+    }
+
+    p {
+        line-height: 150%;
+    }
+
+    a {
+        font-weight: 500;
+    }
+
+    span{
+       font-weight: 600;
     }
 }
 
@@ -168,7 +183,6 @@ h3 {
 @media (max-width: 650px) {
 
     .navbar {
-
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -189,9 +203,6 @@ h3 {
             li {
                 margin-bottom: 10px;
             }
-
-
-
         }
 
 
