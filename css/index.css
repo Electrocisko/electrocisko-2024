@@ -189,6 +189,33 @@ h3 {
   font-weight: 600;
 }
 
+.whatsapp {
+  position: fixed;
+  z-index: 5;
+  right: 80px;
+  top: 60px;
+}
+.whatsapp p {
+  margin-right: 15px;
+  background-color: #4ce25b;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 20px;
+}
+.whatsapp .whatsapp-flex {
+  display: flex;
+  align-items: center;
+}
+.whatsapp img {
+  height: 60px;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+}
+
 @media (max-width: 650px) {
   .navbar {
     display: flex;
