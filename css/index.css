@@ -221,6 +221,10 @@ h3 {
   height: 60px;
 }
 
+.mobil-image {
+  display: none;
+}
+
 footer {
   font-size: 10px;
   text-align: center;
@@ -289,7 +293,7 @@ footer {
   }
   .servicios-container {
     margin: 4rem 2rem;
-    padding-top: 120px;
+    padding-top: 320px;
   }
   .servicios-container h2 {
     text-align: start;
@@ -329,5 +333,11 @@ footer {
   }
   .contacto-container h2 {
     font-size: 25px;
+  }
+  .mobil-image {
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
   }
 }/*# sourceMappingURL=index.css.map */

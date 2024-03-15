@@ -206,6 +206,11 @@ h3 {
     }
 }
 
+
+.mobil-image{
+  display: none;
+}
+
 footer {
     font-size: 10px;
     text-align: center;
@@ -252,7 +257,6 @@ footer {
         background-image: none;
 
 
-
         .title {
             color: var(--color-blue-base);
         }
@@ -297,7 +301,7 @@ footer {
 
     .servicios-container {
         margin: 4rem 2rem;
-        padding-top: 120px;
+        padding-top: 320px;
 
 
         h2 {
@@ -350,7 +354,12 @@ footer {
         h2 {
             font-size: 25px;
         }
+    }
 
-
+    .mobil-image{
+        display: block;
+        height: 200px;
+        width: 200px;
+        border-radius: 15px;
     }
 }
