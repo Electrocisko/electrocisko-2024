@@ -321,18 +321,25 @@ footer {
         display: block;
     }
 
-    
 
-    // .cards-container {
-    //  display: none;
-    // }
-    
- 
     .whatsapp {
         display: none;
     }
 
-    .contacto-container{
-        display: none;
-    }
+        .contacto-container{
+           padding-top: 0px;
+           margin: 0px 32px;
+
+
+            .links-contacto {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            h2{
+                font-size: 25px;
+            }
+
+
+        }
 }
