@@ -76,6 +76,7 @@ html, body {
   height: 100dvh;
   background-image: url("../assets/istockphoto-1212585403-1024x1024.jpg");
   background-size: cover;
+  position: static;
 }
 .main .title {
   color: var(--color-blue-base);
@@ -289,14 +290,14 @@ footer {
   }
   .servicios-container {
     margin: 4rem 2rem 0rem 2rem;
-    padding-top: 80px;
+    padding-top: 200px;
   }
   .servicios-container h2 {
     text-align: center;
     margin: 0px 0px 10px 0px;
     font-size: 25px;
   }
-  .cards-container {
+  .servicios-container .cards-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

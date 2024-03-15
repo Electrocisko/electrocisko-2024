@@ -46,6 +46,7 @@
     height: 100dvh;
     background-image: url("../assets/istockphoto-1212585403-1024x1024.jpg");
     background-size: cover;
+    position: static;
 
 
     .title {
@@ -301,7 +302,7 @@ footer {
 
     .servicios-container {
         margin: 4rem 2rem 0rem 2rem;
-        padding-top: 80px;
+        padding-top: 200px;
 
 
         h2 {
@@ -310,13 +311,16 @@ footer {
             font-size: 25px;
         }
 
+        .cards-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
     }
 
-    .cards-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+
+ 
 
     .google-map {
 
