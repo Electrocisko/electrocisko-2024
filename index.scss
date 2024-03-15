@@ -37,7 +37,7 @@
     }
 }
 
-.hidetext{
+.hidetext {
     display: none;
 }
 
@@ -46,6 +46,7 @@
     height: 100dvh;
     background-image: url("../assets/istockphoto-1212585403-1024x1024.jpg");
     background-size: cover;
+
 
     .title {
         color: var(--color-blue-base);
@@ -81,7 +82,6 @@
 .servicios-container {
     padding-top: 60px;
     margin: 30px 0px 20px 0px;
-
 }
 
 .cards-container {
@@ -245,39 +245,39 @@ footer {
         }
     }
 
-  
+
     .main {
         text-align: center;
         padding-top: 59px;
         background-image: none;
-   
 
-         
+
+
         .title {
             color: var(--color-blue-base);
         }
-    
+
         .main-text-container {
             width: 80%;
             height: 90dvh;
             margin: 0rem 2rem;
-    
+
             h1 {
                 text-align: start;
                 font-size: 25px;
                 font-weight: 700;
                 padding-top: 0;
             }
-    
-      
+
+
             p {
                 text-align: start;
                 font-size: 14px;
-                 }
-    
+            }
+
             li {
-              text-align: start;
-              font-size: 14px;
+                text-align: start;
+                font-size: 14px;
             }
 
             h3 {
@@ -285,9 +285,9 @@ footer {
                 margin: 0px 0px 10px 0px;
                 font-size: 25px;
             }
-    
+
         }
-    
+
     }
 
     .padding120 {
@@ -296,50 +296,61 @@ footer {
 
 
     .servicios-container {
-      margin: 4rem 2rem;
+        margin: 4rem 2rem;
+        padding-top: 120px;
 
 
-      h2 {
-        text-align: start;
-        margin: 0px 0px 10px 0px;
-        font-size: 25px;
+        h2 {
+            text-align: start;
+            margin: 0px 0px 10px 0px;
+            font-size: 25px;
+        }
+
     }
-       
-       }
-       
-       .cards-container {
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       }
+
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
     #mapXL {
-     display: none;
+        display: none;
     }
 
     #mapSMALL {
         display: block;
     }
 
-
     .whatsapp {
+        position: fixed;
+        z-index: 5;
+        right: 10px;
+        top: 60px;
+
+        p {
         display: none;
+        }
+
+           img {
+            height: 40px;
+        }
     }
 
-        .contacto-container{
-           padding-top: 0px;
-           margin: 0px 32px;
+    .contacto-container {
+        padding-top: 0px;
+        margin: 0px 32px;
 
 
-            .links-contacto {
-                flex-direction: column;
-                gap: 5px;
-            }
-
-            h2{
-                font-size: 25px;
-            }
-
-
+        .links-contacto {
+            flex-direction: column;
+            gap: 5px;
         }
+
+        h2 {
+            font-size: 25px;
+        }
+
+
+    }
 }

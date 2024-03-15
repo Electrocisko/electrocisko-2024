@@ -289,6 +289,7 @@ footer {
   }
   .servicios-container {
     margin: 4rem 2rem;
+    padding-top: 120px;
   }
   .servicios-container h2 {
     text-align: start;
@@ -307,7 +308,16 @@ footer {
     display: block;
   }
   .whatsapp {
+    position: fixed;
+    z-index: 5;
+    right: 10px;
+    top: 60px;
+  }
+  .whatsapp p {
     display: none;
+  }
+  .whatsapp img {
+    height: 40px;
   }
   .contacto-container {
     padding-top: 0px;
