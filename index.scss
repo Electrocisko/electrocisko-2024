@@ -358,8 +358,13 @@ footer {
 
     .mobil-image{
         display: block;
-        height: 200px;
-        width: 200px;
-        border-radius: 15px;
+     
+
+        img {
+            height: 200px;
+            width: 200px;
+            border-radius: 15px;
+            opacity: 90%;
+        }
     }
 }
