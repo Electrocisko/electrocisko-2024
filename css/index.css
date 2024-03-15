@@ -19,10 +19,6 @@ button {
   font-family: var(--font-dm);
 }
 
-body {
-  position: relative;
-}
-
 :root {
   --font-base: "Comfortaa", sans-serif;
   --color-soft-red:hsl(10, 79%, 65%);
@@ -292,11 +288,11 @@ footer {
     padding-top: 120px;
   }
   .servicios-container {
-    margin: 4rem 2rem;
-    padding-top: 320px;
+    margin: 4rem 2rem 0rem 2rem;
+    padding-top: 80px;
   }
   .servicios-container h2 {
-    text-align: start;
+    text-align: center;
     margin: 0px 0px 10px 0px;
     font-size: 25px;
   }
@@ -304,6 +300,12 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .google-map {
+    padding-top: 5px;
+  }
+  .google-map h2 {
+    font-size: 25px;
   }
   #mapXL {
     display: none;
