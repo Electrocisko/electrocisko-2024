@@ -7,10 +7,6 @@ const contact = document.getElementById("contact");
 const main = document.getElementsByClassName("body-container")[0];
 
 
-
-
-
-
 iconWhatsapp.addEventListener("mouseover", () => {
   console.log("mouse over");
 contact.classList.remove("hidetext")
@@ -29,7 +25,7 @@ if (displaySize < 651) {
 
 hamburguer.addEventListener("click", () => {
   linksContainer.classList.toggle("hide");
-  main.classList.toggle("padding120")
+  //main.classList.toggle("padding120")
 });
 
 for (let i = 0; i < links.length; i++) {
