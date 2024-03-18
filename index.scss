@@ -159,7 +159,9 @@ h3 {
         margin-top: 15px;
         display: flex;
         justify-content: center;
+        align-items: baseline;
         gap: 50px;
+        color: var(--color-blue-base);
     }
 
     p {
@@ -168,6 +170,8 @@ h3 {
 
     a {
         font-weight: 500;
+        color: var(--color-blue-base);
+        margin-top: 5px;
     }
 
     span {
@@ -202,7 +206,6 @@ h3 {
     }
 }
 
-
 .mobil-image {
     display: none;
 }
@@ -213,10 +216,10 @@ footer {
     text-align: center;
 }
 
-
-
-.arrow {
-display: none;
+.align-items {
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
 }
 
 //Mobil design
@@ -253,10 +256,6 @@ display: none;
         }
     }
 
-    // .body-container {
-    //     padding-top: 0px;
-    //     margin: 0px 15px;
-    // }
 
     .main {
         background-image: none;

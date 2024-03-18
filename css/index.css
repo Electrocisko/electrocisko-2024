@@ -182,13 +182,17 @@ h3 {
   margin-top: 15px;
   display: flex;
   justify-content: center;
+  align-items: baseline;
   gap: 50px;
+  color: var(--color-blue-base);
 }
 .contacto-container p {
   line-height: 150%;
 }
 .contacto-container a {
   font-weight: 500;
+  color: var(--color-blue-base);
+  margin-top: 5px;
 }
 .contacto-container span {
   font-weight: 600;
@@ -228,8 +232,10 @@ footer {
   text-align: center;
 }
 
-.arrow {
-  display: none;
+.align-items {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
 @media (max-width: 650px) {
