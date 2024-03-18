@@ -227,12 +227,16 @@ footer {
   text-align: center;
 }
 
+.arrow {
+  display: none;
+}
+
 @media (max-width: 650px) {
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    position: static;
+    position: fixed;
   }
   .navbar .hide {
     display: none;
@@ -253,21 +257,14 @@ footer {
   .navbar .menu {
     display: block;
   }
-  .body-container {
-    padding-top: 0px;
-    margin: 0px 15px;
-  }
   .main {
     background-image: none;
   }
   .main-text-container {
     width: 100%;
   }
-  .padding120 {
-    padding-top: 120px;
-  }
   .servicios-container {
-    padding-top: 0px;
+    padding-top: 60px;
   }
   .servicios-container .cards-container {
     display: flex;
@@ -280,7 +277,7 @@ footer {
     font-size: 30px;
   }
   .google-map {
-    padding-top: 5px;
+    padding-top: 60px;
   }
   .google-map h2 {
     font-size: 30px;
@@ -304,7 +301,7 @@ footer {
     height: 40px;
   }
   .contacto-container {
-    padding-top: 0px;
+    padding-top: 60xp;
     margin: 0px 32px;
   }
   .contacto-container .links-contacto {

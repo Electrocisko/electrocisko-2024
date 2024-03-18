@@ -212,6 +212,12 @@ footer {
     text-align: center;
 }
 
+
+
+.arrow {
+display: none;
+}
+
 //Mobil design
 @media (max-width: 650px) {
 
@@ -219,7 +225,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        position: static;
+        position: fixed;
 
         .hide {
             display: none;
@@ -246,10 +252,10 @@ footer {
         }
     }
 
-    .body-container {
-        padding-top: 0px;
-        margin: 0px 15px;
-    }
+    // .body-container {
+    //     padding-top: 0px;
+    //     margin: 0px 15px;
+    // }
 
     .main {
         background-image: none;
@@ -259,16 +265,8 @@ footer {
         width: 100%;
     }
 
-    .padding120 {
-        padding-top: 120px;
-    }
-
-
     .servicios-container {
-     padding-top: 0px;
-
-
-
+     padding-top: 60px;
 
         .cards-container {
             display: flex;
@@ -287,7 +285,7 @@ footer {
 
     .google-map {
 
-        padding-top: 5px;
+        padding-top: 60px;
 
         h2 {
             font-size: 30px;
@@ -318,7 +316,7 @@ footer {
     }
 
     .contacto-container {
-        padding-top: 0px;
+        padding-top: 60xp;
         margin: 0px 32px;
 
 
@@ -343,7 +341,5 @@ footer {
             border-radius: 16px;
             opacity: 90%;
         }
-    }
-
-
+    }    
 }
